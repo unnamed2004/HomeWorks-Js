@@ -3,4 +3,4 @@ function f(n) {
     return n / 2;
   } else return n * 3 + 1;
 }
-console.log(f(3));
+console.log(f(5));
