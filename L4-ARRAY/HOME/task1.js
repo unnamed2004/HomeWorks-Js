@@ -1,7 +1,7 @@
-function addElem(arr){
+function add(arr){
     let add = arr.splice(2, 0, 'a','b','c');
     console.log(arr)
     
 }
 
-addElem([1,2,3,4,5])
+add([1,2,3,4,5])
