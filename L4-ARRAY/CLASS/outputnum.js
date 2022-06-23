@@ -1,6 +1,11 @@
-function sortNum(arr){
-    res = arr.sort()
-    return res;
+function FilterArr(arr){
+    let arr1 = [];
+    for (let i = 0; i <arr.lenght;i++){
+    if (typeof arr [i] === "number"){
+        arr1.push(arr[i])
+    } 
     }
-    console.log(sortNum([[3],24,[2],[5],1,6]));
+    return arr1;
+}
     
+console.log(FilterArr([1 ,2 ,"a","b"]));
